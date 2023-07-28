@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .profile-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-top: 0; /* Remove default margin for h1 */
+            padding-top: 20px; /* Add padding for spacing between profile picture and heading */
+        }
+
+        h2 {
+            margin-top: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .profile-field {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .profile-field label {
+            font-weight: bold;
+        }
+
+        /* Styles for the larger SVG profile picture */
+        .profile-picture {
+            display: block;
+            margin: 0 auto;
+            background-color: #f4e0c1; /* Cream color background */
+            border-radius: 50%; /* Make it circular */
+            padding: 10px; /* Add some padding around the picture */
+            width: 120px; /* Adjust the size as needed */
+            height: 120px; /* Adjust the size as needed */
+        }
+    </style>
+</head>
+<body>
+<div class="profile-container">
+    <div class="profile-picture">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="100%" width="100%" version="1.1" id="Layer_1" viewBox="0 0 100 100" xml:space="preserve">
+                <!-- Replace the SVG code here with the actual profile picture SVG -->
+                <circle cx="50" cy="50" r="40" fill="blue" />
+            </svg>
+    </div>
+    <h1>Employee Profile</h1>
+
+    <div>
+        <h2>Personal Information</h2>
+        <div class="profile-field">
+            <label>Name:</label>
+            <span id="name">John Doe</span>
+        </div>
+        <div class="profile-field">
+            <label>Gender:</label>
+            <span id="gender">Male</span>
+        </div>
+        <!-- Add more personal information fields as needed -->
+
+        <h2>Contact Information</h2>
+        <div class="profile-field">
+            <label>Email:</label>
+            <span id="email">johndoe@example.com</span>
+        </div>
+        <div class="profile-field">
+            <label>Contact Number:</label>
+            <span id="number">+1 123-456-7890</span>
+        </div>
+        <!-- Add more contact information fields as needed -->
+
+        <h2>Employment Information</h2>
+        <div class="profile-field">
+            <label>Employee ID:</label>
+            <span id="employeeId">123456</span>
+        </div>
+        <div class="profile-field">
+            <label>Position:</label>
+            <span id="position">Software Engineer</span>
+        </div>
+        <!-- Add more employment information fields as needed -->
+
+        <h2>Other Information</h2>
+        <div class="profile-field">
+            <label>Aadhar Number:</label>
+            <span id="aadharNo">1234-5678-9012</span>
+        </div>
+        <div class="profile-field">
+            <label>PAN Number:</label>
+            <span id="panNo">ABCDE1234F</span>
+        </div>
+        <!-- Add more other information fields as needed -->
+
+        <!-- Emergency Contact Section -->
+        <h2>Emergency Contact</h2>
+        <div class="profile-field">
+            <label>Name:</label>
+            <span id="emergencyName">Jane Doe</span>
+        </div>
+        <div class="profile-field">
+            <label>Relationship:</label>
+            <span id="emergencyRelationship">Spouse</span>
+        </div>
+        <div class="profile-field">
+            <label>Contact Number:</label>
+            <span id="emergencyContactNumber">+1 987-654-3210</span>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
